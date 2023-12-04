@@ -1,0 +1,101 @@
+body {
+    background-color: rgba(0, 0, 0, 0.850);
+}
+
+.container {
+    display: block;
+    position: relative;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 550px;
+    margin-right: 550px;
+    padding-bottom: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgba(90, 90, 90, 0.499);
+    color: white;
+}
+
+h1 {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: blueviolet;
+    font-family: sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-family: sans-serif;
+}
+
+.a2 {
+    margin-left: 140px;
+}
+
+a:hover {
+    color: blueviolet;
+}
+
+.login {
+    width: 340px;
+    height: 55px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: blueviolet;
+    color: white;
+    transition: all 0.5s;
+    font-size: larger;
+    font-family: sans-serif;
+}
+
+.login:hover {
+    border-radius: 10px;
+    width: 350px;
+    height: 60px;
+    background-color: rgb(160, 85, 230);
+}
+
+.input {
+    padding-left: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 320px;
+    height: 45px;
+    background-color: rgba(160, 160, 160, 0.499);
+    color: white;
+    font-family: sans-serif;
+}
+
+.plcholder1 {
+    position: absolute;
+    pointer-events: none;
+    top: 130px;
+    left: 60px;
+    transition: all 0.5s;
+    color: rgb(202, 202, 202);
+}
+
+.plcholder2 {
+    position: absolute;
+    pointer-events: none;
+    top: 198px;
+    left: 60px;
+    transition: all 0.5s;
+    color: rgb(202, 202, 202);
+}
+
+#input1:focus~.plcholder1 {
+    top: 121px;
+    font-size: smaller;
+}
+
+#input2:focus~.plcholder2 {
+    top: 189px;
+    font-size: smaller;
+}
+
+.input #input1 {
+    margin-bottom: 7px;
+}
